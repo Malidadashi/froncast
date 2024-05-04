@@ -1,3 +1,37 @@
-.navbar{
-    background-color: aquamarine;
+
+.navbar-logo-top{
+  opacity: 200%;
 }
+.navbar .navbar-logo-top:hover{
+  opacity: 200%;
+}
+
+.navbar-menu {
+  float: right;
+  direction: rtl;
+
+  margin-top: -5rem;
+}
+
+
+.navbar-menu-ul {
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+ gap: 2rem;
+
+}
+
+
+.navbar-menu-account{
+   
+    background-color: rgb(61, 61, 158);
+    border-radius: .5rem;
+    height: 2rem;
+    width: 7.5rem;
+    text-align: center;
+    color: #fff;
+
+}
+
+

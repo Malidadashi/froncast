@@ -10,33 +10,65 @@ import { BsChatQuote } from "react-icons/bs";
 const Simple_Dev = () => {
   return (
     <div className="simple-dev">
-      <div>
-        <h1></h1>
-        <p>
-          در فرانت کست می توانید مهارت های برنامه نویسی خود را تقویت کنید و به
-          یک توسعه دهنده حرفه ای تبدیل شوید
-          
-          
-        </p>
+      <div className="simple-dev-rightside">
+        <div className="simple-dev-upperside">
+          <h1 className="simple-dev-upperside-h1">
+            .برنامه نویسی به زبان ساده
+          </h1>
+          <p className="simple-dev-upperside-p">
+            در فرانت کست می توانید مهارت های برنامه نویسی خود را تقویت کنید{" "}
+            <br />
+            .و به یک توسعه دهنده حرفه ای تبدیل شوید
+          </p>
+        </div>
+
+        <div className="simple-dev-learn">
+          <button className="simple-dev-learn-btn">شروع یادگیری</button>
+        </div>
+
+        <div className="simple-dev-learn-icons">
+          <div className="simple-dev-icons">
+            <div className="simple-dev-icons-1throw">
+              <ul className="">
+                <li>
+                  یادگیری با انجام تمرین <MdOutlineEditNote />
+                </li>
+                <li>
+                  ویدیوهای کوتاه و با کیفیت
+                  <IoMdTime />
+                </li>
+                <li>
+                  ضمانت بازگشت وجه
+                  <IoWalletOutline />
+                </li>
+              </ul>
+            </div>
+            <div className="simple-dev-icons-2throw">
+              <span>
+                <ul>
+                  <li>
+                    به روز رسانی رایگان
+                    <CiVideoOn />
+                  </li>
+                  <li>
+                    سرفصل‌های جامع و دقیق
+                    <RiMenu3Line />
+                  </li>
+                  <li>
+                    پشتیبانی دوره‌ها
+                    <BsChatQuote />{" "}
+                  </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <button>شروع یادگیری</button>
-      </div>
-
-      <div>
-        <ul>
-          <li>یادگیری با انجام تمرین <MdOutlineEditNote/></li>
-          <li>ویدیوهای کوتاه و با کیفیت<IoMdTime/></li>
-          <li>ضمانت بازگشت وجه<IoWalletOutline/></li>
-          <li>به روز رسانی رایگان<CiVideoOn/></li>
-          <li>سرفصل‌های جامع و دقیق<RiMenu3Line/></li>
-          <li>پشتیبانی دوره‌ها<BsChatQuote/></li>
-        </ul>
-      </div>
-
-      <div>
-        <img src={uwu} alt="uwu" />
+      <div className="simple-dev-leftside">
+        <div className="simple-dev-reactimg">
+          <img src={uwu} alt="uwu" />
+        </div>
       </div>
     </div>
   );
