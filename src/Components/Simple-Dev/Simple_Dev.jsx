@@ -34,8 +34,9 @@ const Simple_Dev = () => {
                   یادگیری با انجام تمرین <MdOutlineEditNote />
                 </li>
                 <li>
+                <IoMdTime />
                   ویدیوهای کوتاه و با کیفیت
-                  <IoMdTime />
+                 
                 </li>
                 <li>
                   ضمانت بازگشت وجه
