@@ -7,7 +7,7 @@ import { IoWalletOutline } from "react-icons/io5";
 import { IoMdTime } from "react-icons/io";
 import { RiMenu3Line } from "react-icons/ri";
 import { BsChatQuote } from "react-icons/bs";
-const Simple_Dev = () => {
+const Simpledev = () => {
   return (
     <div className="simple-dev">
       <div className="simple-dev-rightside">
@@ -75,4 +75,4 @@ const Simple_Dev = () => {
   );
 };
 
-export default Simple_Dev;
+export default Simpledev;

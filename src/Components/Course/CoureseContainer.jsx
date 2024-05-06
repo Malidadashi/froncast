@@ -4,6 +4,9 @@ import "./CourseContainer.css";
 import nextjs from "../../assets/nextjs.jpg";
 import js_advanced_concepts from "../../assets/js_advanced_concepts.jpg";
 import typescript from '../../assets/typescript.jpg'
+import react from '../../assets/react.jpg'
+import data_structures_and_algorithms from '../../assets/data_structures_and_algorithms.jpg'
+import javascript_advanced from '../../assets/javascript_advanced.jpg'
 import CourseItem from "./CourseItem";
 
 const CoureseContainer = () => {
@@ -23,6 +26,21 @@ const CoureseContainer = () => {
       courseTitle: "آموزش Css",
       price: "رایگان",
       image:typescript
+    },
+    {
+      courseTitle: " آموزش react",
+      price: "1540 هزار تومان",
+      image:react
+    },
+    {
+      courseTitle: "آموزش ساختمان داده و الگوریتم ها در جاوااسکریپت",
+      price: "500 هزار تومان",
+      image:data_structures_and_algorithms
+    },
+    {
+      courseTitle: "آموزش javascript",
+      price: "رایگان",
+      image:javascript_advanced
     },
   ];
   return (

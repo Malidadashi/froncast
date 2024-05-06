@@ -1,22 +1,24 @@
 import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
-import Simple_Dev from './Components/Simple-Dev/Simple_Dev'
+
 // import Course from './Components/Course/Course'
-import Comments from './Components/Comments/Comments'
+// import Comments from './Components/Comments/Comments'
 // import Footer from './Components/Footer/Footer'
 import CoureseContainer from './Components/Course/CoureseContainer'
+import CmContainer from './Components/Comments/CmContainer'
 const App = () => {
   return (
     <div>
-<Navbar/>
-<Simple_Dev/>
-{/* <Course/> */}
-<CoureseContainer />
-<Comments/>
+      <Navbar />
+
+      {/* <Course/> */}
+      <CoureseContainer />
+      <CmContainer />
+      {/* <Comments/> */}
 
 
-{/* <Footer/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
