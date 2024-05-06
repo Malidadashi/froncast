@@ -1,22 +1,23 @@
 import React from "react";
 // import CourseItem from "./CourseItem";
-import './CourseContainer.css'
+import "./CourseContainer.css";
 import nextjs from "../../assets/nextjs.jpg";
-import courseItems from "./CourseItem";
+import js_advanced_concepts from '../../assets/js_advanced_concepts.jpg'
+import CourseItem from "./CourseItem";
+
 
 const CoureseContainer = () => {
-  const CourseItem = [
+  const courseItem = [
     {
       courseTitle: "آموزش nextjs",
-      price: 870,
-      imagesrc:{nextjs}
-      
+      price: '850 هزار تومان',
+      image :{nextjs}
     },
-   
+
     {
       courseTitle: "آموزش React",
-      price: 500,
-     
+      price: '500 هزار تومان',
+      image:{js_advanced_concepts}
     },
     {
       courseTitle: "آموزش Css",
@@ -25,9 +26,12 @@ const CoureseContainer = () => {
   ];
   return (
     <section className="course-container">
-      {courseItems.map((course) => (
-        <CourseItem courseTitle={course.courseTitle} price={course.price} />
-      ))}
+   
+      {courseItem.map((course) => {
+        return (
+          <CourseItem courseTitle={course.courseTitle} price={course.price} imagesrc={course.image}/>
+        );
+      })}
     </section>
   );
 };
