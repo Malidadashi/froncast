@@ -1,8 +1,9 @@
 import React from "react";
 import jalali from "../../assets/jalali.jpg";
-import './CmItems'
+import CmItems from './CmItems'
 const CmContainer = () => {
-  const cmItems = [
+// 
+  const x = [
     {
       user: "علی جلالی",
       profilepicture:  jalali,
@@ -13,16 +14,17 @@ const CmContainer = () => {
     // {},
     // {},
     // {},
-    // {},
   ];
+  //چرا باید حروف کوچیک بنویسیم
+
   return (
     <section>
-      {cmItems.map((Comment) => {
+      {x.map((item) => {
         return (
-          <cmItems
-            name={Comment.name}
-            picture={Comment.picture}
-            Comment={Comment.Comment}
+          <CmItems
+            name={item.user}
+            picture={item.profilepicture}
+            comment={item.userscomment}
           />
         );
       })}
