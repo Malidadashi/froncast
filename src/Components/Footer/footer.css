@@ -1,0 +1,30 @@
+.footer {
+  display: flexbox;
+}
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+.footer-social {
+  display: ruby;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  font-size: larger;
+ 
+}
+
+.footer-social a :hover{
+color: rgb(171, 231, 231);
+font-size: xx-large;
+}
+/* .footer-s{
+    display: inline-block;
+} */
+
+.footer-pal{
+    display: flex;
+    justify-content: space-between;
+}

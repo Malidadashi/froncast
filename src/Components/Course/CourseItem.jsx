@@ -1,13 +1,13 @@
 import React from "react";
 // import nextjs from "../../assets/nextjs.jpg";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import './CourseItem.css'
-const CourseItem = ({courseTitle, price, imagesrc}) => {
+import "./CourseItem.css";
+const CourseItem = ({ courseTitle, price, imagesrc }) => {
   return (
     <div className="course-item">
+ 
       <div className="course-img">
         <img src={imagesrc} alt="imagecourse" />
-       
       </div>
       <div className="course-complete">
         <ul className="course-complete-ul">
@@ -19,9 +19,7 @@ const CourseItem = ({courseTitle, price, imagesrc}) => {
       </div>
       <div className="course-rowtitle">
         <div className="course-rowtitle-price">
-          <mark>
-            {price}
-            </mark>
+          <mark>{price}</mark>
         </div>
         <div className="course-rowtitle-viewcourse">
           <p>

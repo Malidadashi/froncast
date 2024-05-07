@@ -1,0 +1,14 @@
+.cm-items{
+    display: flex;
+    /* flex-direction: column; */
+
+
+}
+
+.cm-items-img{
+    border-radius: 50%;
+}
+
+.cm-items h4 p{
+display: flex;
+}

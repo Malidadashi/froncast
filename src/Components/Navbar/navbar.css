@@ -1,6 +1,9 @@
-
+*{
+  margin: .2rem;
+}
 .navbar-logo-top{
   opacity: 200%;
+  direction: ltr;
 }
 .navbar .navbar-logo-top:hover{
   opacity: 200%;

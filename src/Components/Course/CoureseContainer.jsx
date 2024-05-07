@@ -43,15 +43,27 @@ const CoureseContainer = () => {
       image: javascript_advanced,
     },
   ];
+
   return (
+    
     <section className="course-container">
+  <div>
+  <h1 className="course-container-h1">دوره های آموزشی</h1>
+</div>
+
       {courseItem.map((course) => {
         return (
-          <CourseItem
-            courseTitle={course.courseTitle}
-            price={course.price}
-            imagesrc={course.image}
-          />
+          <section className="">
+            <>
+            </>
+
+            <CourseItem
+              courseTitle={course.courseTitle}
+              price={course.price}
+              imagesrc={course.image}
+            />
+
+          </section>
         );
       })}
     </section>
