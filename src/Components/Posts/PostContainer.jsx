@@ -1,5 +1,6 @@
 import React from "react";
 import PostItems from "./PostItems";
+import "./postcontainer.css";
 // import What_is_Dead_Zone_in_JavaScript from "../../assets/What_is_Dead_Zone_in_JavaScript.jpg";
 import React_State_vs_Refs from "../../assets/React_State_vs_Refs.png";
 import any_type_in_typescript from "../../assets/any_type_in_typescript.png";
@@ -17,13 +18,21 @@ const PostContainer = () => {
     },
   ];
   return (
-    <section>
-      <>
+    <section className="postcontainer">
+      <section className="postcontainer-s2">
         <h1>پست های فرانت کست</h1>
-      </>
-      {post.map((items) => {
-        return <PostItems picture={items.img} title={items.titlename} />;
-      })}
+        <p>
+          برای مشاهده پست های بیشتر به
+          <a href="https://frontcast.ir/blog" className="">
+            وبلاگ مراجعه کنید
+          </a>
+        </p>
+      </section>
+      <section className="postcontainer-items">
+        {post.map((items) => {
+          return <PostItems picture={items.img} title={items.titlename} />;
+        })}
+      </section>
     </section>
   );
 };

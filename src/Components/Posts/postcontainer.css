@@ -1,0 +1,30 @@
+/* .postcontainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.postcontainer a {
+  color: cadetblue;
+}
+
+.postcontainer h1 p {
+  margin-right: 20rem;
+  margin-top: -15rem;
+}
+.postcontainer-items {
+  margin-top: 50rem;
+} */
+
+.postcontainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.postcontainer-s2 {
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+

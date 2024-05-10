@@ -1,5 +1,6 @@
 .footer {
   display: flexbox;
+  margin-top: 2rem;
 }
 .footer ul {
   list-style-type: none;

@@ -1,0 +1,27 @@
+.postitems {
+  display: flex;
+  flex-direction: column;
+  border:solid #e0dbdb;
+  border-radius: 1rem;
+}
+/* .postitems img{
+    width: 50%;
+} */
+.postcontainer-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: -5.5rem;
+  flex-wrap: wrap;
+}
+
+.postitems-p {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  color: rgb(151, 219, 219);
+}
+.postitems img{
+    background-attachment: fixed;
+
+}

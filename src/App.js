@@ -10,16 +10,15 @@ import CmContainer from './Components/Comments/CmContainer'
 import PostContainer from './Components/Posts/PostContainer'
 const App = () => {
   return (
-    <div>
+    <div className='main-content'>
       <Navbar />
-
       {/* <Course/> */}
       <CoureseContainer />
       <CmContainer />
       {/* <Comments/> */}
 
-<PostContainer/>
-      <Footer/>
+      <PostContainer />
+      <Footer />
     </div>
   )
 }

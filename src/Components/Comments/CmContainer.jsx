@@ -4,14 +4,13 @@ import mojtahedi from "../../assets/mojtahedi.jpg";
 import purmohammad from "../../assets/purmohammad.jpg";
 import farajpour from "../../assets/farajpour.jpg";
 import mirzaei from "../../assets/mirzaei.jpg";
-import malekzadeh from '../../assets/malekzadeh.jpg'
-import './cmitems.css'
+import malekzadeh from "../../assets/malekzadeh.jpg";
+import "./cmitems.css";
 import CmItems from "./CmItems";
 
 import "../Comments/cmusers.css";
 
 const CmContainer = () => {
-
   const x = [
     {
       user: "علی جلالی",
@@ -54,15 +53,18 @@ const CmContainer = () => {
 
   return (
     <section className="cmcontainer">
-      {x.map((item) => {
-        return (
-          <CmItems
-            name={item.user}
-            picture={item.profilepicture}
-            comment={item.userscomment}
-          />
-        );
-      })}
+      <h1 className="cmcontainer-h1">از زبان دانشجویان فرانت کست</h1>
+      <section className="cmcontainre-items">
+        {x.map((item) => {
+          return (
+            <CmItems
+              name={item.user}
+              picture={item.profilepicture}
+              comment={item.userscomment}
+            />
+          );
+        })}
+      </section>
     </section>
   );
 };
