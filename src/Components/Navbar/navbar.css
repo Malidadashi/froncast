@@ -37,4 +37,12 @@
 
 }
 
+li:hover {
+  background: gray;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+
 

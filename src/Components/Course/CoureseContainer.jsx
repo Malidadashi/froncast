@@ -9,7 +9,7 @@ import data_structures_and_algorithms from "../../assets/data_structures_and_alg
 import javascript_advanced from "../../assets/javascript_advanced.jpg";
 import CourseItem from "./CourseItem";
 
-const CoureseContainer = () => {
+const CoureseContainer = ({show: boolean}) => {
   const courseItem = [
     {
       courseTitle: "آموزش nextjs",
